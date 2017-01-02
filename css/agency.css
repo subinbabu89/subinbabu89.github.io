@@ -374,7 +374,7 @@ section h3.section-subheading {
 #workexp .workexp-item .workexp-link {
   display: block;
   position: relative;
-  max-width: 400px;
+  max-width: 500px;
   margin: 0 auto;
 }
 #workexp .workexp-item .workexp-link .workexp-hover {
@@ -443,7 +443,7 @@ section h3.section-subheading {
   position: absolute;
   content: "";
   width: 2px;
-  background-color: #f1f1f1;
+  background-color: #e64a3c;
   left: 40px;
   margin-left: -1.5px;
 }
@@ -489,7 +489,7 @@ section h3.section-subheading {
   background-color: #e64a3c;
   color: white;
   border-radius: 100%;
-  border: 7px solid #f1f1f1;
+  border: 7px solid #e64a3c;
   text-align: center;
 }
 .timeline > li .timeline-image h4 {

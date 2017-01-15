@@ -306,6 +306,10 @@ section h3.section-subheading {
   margin: 0 0 15px;
   right: 0;
 }
+#portfolio .portfolio-footer {
+  margin-top: 100px;
+  text-align: center;
+}
 #portfolio .portfolio-item .portfolio-link {
   display: block;
   position: relative;

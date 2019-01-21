@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 
 <!-- Title -->
-<title>I'm Mat - Material Personal Resume vCard Template</title>
+<title>I'm Mat - Material Personal Resume / CV vCard Template</title>
 
 <!-- Favicons -->
 <link rel="shortcut icon" href="assets/img/favicon.png">
@@ -24,12 +23,22 @@
 <!-- CSS Styles -->
 <link rel="stylesheet" href="assets/css/styles.css" />
 
-<!-- CSS Theme -->
-<link rel="stylesheet" id="theme" href="assets/css/themes/theme-blue.css" />
+<!-- CSS theme -->
+<link rel="stylesheet" id="theme" href="assets/css/themes/theme-orange.css" />
 
 </head>
 
-<body class="bg-grey">
+<body class="bg-black">
+
+<!-- Facebook Button / Root -->
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.6";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
 
 <!-- Loader -->
 <div id="page-loader" class="bg-white">
@@ -37,9 +46,10 @@
 </div>
 <!-- Loader / End -->
 
-<!-- BG Image -->
-<div class="bg-body bg-image zooming">
-	<img src="assets/img/photos/bg_frontend.jpg" alt="">
+<!-- Image BG -->
+
+<!-- Video BG -->
+<div class="bg-body bg-video" data-property="{videoURL:'https://youtu.be/0JvqFobpvkA', showControls: false, containment:'self',startAt:12,mute:true,autoPlay:true,loop:true,opacity:.25}">
 </div>
 
 <!-- Header -->
@@ -61,7 +71,7 @@
 			</nav>
 		</div>
 	</div>
-
+	
 	<!-- Navigation Bar -->
 	<div id="nav-bar" class="container">
 		<nav>
@@ -80,8 +90,8 @@
 
 		<div class="mobile-nav clearfix">
 			<div class="owner">
-				<img src="assets/img/avatars/avatar_square_sm.jpg" alt="">
-				<span class="name">Mat Webber</span>
+				<img src="assets/img/avatars/avatar_trainer_square_sm.jpg" alt="">
+				<span class="name">Mark Benett</span>
 			</div>
 			<a href="#" class="panel-toggle" data-toggle="panel"><span><span></span></span></a>
 		</div>
@@ -92,19 +102,19 @@
 
 <!-- Content -->
 <div id="content" class="container">
-
+		
 	<div id="photo">
-		<img src="assets/img/avatars/avatar.jpg" alt="">
+		<img src="assets/img/avatars/avatar_trainer.jpg" alt="">
 	</div>
 
 	<div id="sections-wrapper">
-
+			
 		<!-- Section -->
-		<section id="home" class="bg-white" data-target="local-scroll">
+		<section id="home" class="bg-white">
 			<div class="section-content">
-				<img class="img-circle mb-40 visible-sm visible-xs" src="assets/img/avatars/avatar_square_sm.jpg" alt="">
-				<h1 class="mb-0">I'm Mat Webber</h1>
-				<h3 class="text-muted"><span class="typing">Proffesional front-end developer</span></h3>
+				<img class="img-circle mb-40 visible-sm visible-xs" src="assets/img/avatars/avatar_trainer_square_sm.jpg" alt="">
+				<h1 class="mb-0">I'm Mark Benett</h1>
+				<h3 class="text-muted"><span class="typing">Proffesional personal CrossFit Trainer</span></h3>
 				<hr class="sep-line">
 
 				<div class="row">
@@ -128,19 +138,17 @@
 						<dl class="description-2">
 							<dt>E-mail:</dt>
 							<dd><a href="#">example@mail.com</a></dd>
-							<dt>Folow me!</dt>
-							<dd>
-								<a href="https://www.facebook.com/suelopl" target="blank" class="icon icon-facebook icon-sm icon-circle"><i class="fa fa-facebook"></i></a>
-								<a href="https://twitter.com/suelopl" target="blank" class="icon icon-twitter icon-sm icon-circle"><i class="fa fa-twitter"></i></a>
-								<a href="#" target="blank" class="icon icon-google-plus icon-sm icon-circle"><i class="fa fa-google-plus"></i></a>
-								<a href="#" target="blank" class="icon icon-linkedin icon-sm icon-circle"><i class="fa fa-linkedin"></i></a>
+							<dt>Like me!</dt>
+							<dd>	
+								<!-- Facebook Button -->
+								<div class="fb-like" data-href="https://www.facebook.com/suelopl" data-layout="button_count" data-action="like" data-show-faces="false" data-share="true"></div>
 							</dd>
 						</dl>
 					</div>
 				</div>
 			</div>
-			<a href="#works" class="btn btn-section btn-primary">
-				<span class="i-before i"><i class="ti-desktop"></i><i class="ti-arrow-down"></i></span>Check my <strong>works</strong>
+			<a href="#" class="btn btn-section btn-primary">
+				<span class="i-before i"><i class="ti-file"></i><i class="ti-download"></i></span><strong>Download</strong> my CV
 			</a>
 		</section>
 
@@ -180,7 +188,7 @@
 		<!-- Section -->
 		<section id="promo-video" class="section-video dark">
 			<div class="section-content">
-				<div class="image bg-image"><img src="assets/img/photos/video_frontend.jpg" alt=""></div>
+				<div class="image bg-image"><img src="assets/img/photos/video_trainer.jpg" alt=""></div>
 				<h3 class="title">Why me?</h3>
 				<a href="https://www.youtube.com/embed/uVju5--RqtY?rel=0&autoplay=1" class="btn-play"></a>
 			</div>
@@ -444,7 +452,7 @@
 						<!-- Testimonial -->
 						<div class="testimonial testimonial-primary animated" data-animation="fadeInUp" data-animation-delay="100">
 							<div class="testimonial-content">
-								Pellentesque et massa sed diam ornare laoreet nec nec turpis. Aenean in magna lobortis, dignissim sem at, tincidunt nunc. Nunc fringilla a tellus in hendrerit.
+								Pellentesque et massa sed diam ornare laoreet nec nec turpis. Aenean in magna lobortis, dignissim sem at, tincidunt nunc. Nunc fringilla a tellus in hendrerit. 
 							</div>
 							<div class="testimonial-author">
 								<div class="name">Johnatan Doe</div>
@@ -456,7 +464,7 @@
 						<!-- Testimonial -->
 						<div class="testimonial testimonial-primary animated" data-animation="fadeInUp" data-animation-delay="200">
 							<div class="testimonial-content">
-								Pellentesque et massa sed diam ornare laoreet nec nec turpis. Aenean in magna lobortis, dignissim sem at, tincidunt nunc. Nunc fringilla a tellus in hendrerit.
+								Pellentesque et massa sed diam ornare laoreet nec nec turpis. Aenean in magna lobortis, dignissim sem at, tincidunt nunc. Nunc fringilla a tellus in hendrerit. 
 							</div>
 							<div class="testimonial-author">
 								<div class="name">Johnatan Doe</div>
@@ -612,17 +620,18 @@
 					</div>
 				</div>
 			</div>
-			<div id="google-map" class="h-300" data-latitude="40.758895" data-longitude="-73.985131"></div>
+			<div id="google-map" class="h-300" data-latitude="40.758895" data-longitude="-73.985131" data-style="light"></div>
 		</section>
 
 		<!-- Section -->
 		<section id="sign-in" class="bg-primary dark">
 			<div class="section-content">
-				<h3><strong>Sign up to my newsletter!</strong></h3>
-				<form action="//suelo.us12.list-manage.com/subscribe/post-json?u=ed47dbfe167d906f2bc46a01b&amp;id=24ac8a22ad" id="sign-in-form" class="sign-in-form validate-form" method="POST">
+				<h3><strong>Sign in to my newsletter!</strong></h3>
+				<form action="http://suelo.us12.list-manage1.com/subscribe/post-json" id="sign-in-form" class="sign-in-form validate-form" method="POST">
 					<div class="form-group input-wrapper">
-	            		<input class="hidden" type="text" name="b_ed47dbfe167d906f2bc46a01b_24ac8a22ad" tabindex="-1" value="">
-						<input type="email" value="" name="EMAIL" class="form-control input-lg" id="mce-EMAIL" required>
+						<input type="hidden" name="u" value="ed47dbfe167d906f2bc46a01b">
+	            		<input type="hidden" name="id" value="24ac8a22ad">
+						<input type="email"  name="MERGE0" size="25" value="" class="form-control input-lg" required>
 						<span class="input-label">Your e-mail</span>
 					</div>
 					<div class="row">
@@ -655,7 +664,7 @@
 	<div class="panel-wrapper">
 		<!-- Photo -->
 		<div class="photo">
-			<img src="assets/img/avatars/avatar_square.jpg" alt="">
+			<img src="assets/img/avatars/avatar_trainer_square.jpg" alt="">
 		</div>
 
 		<!-- Menu -->
@@ -729,7 +738,9 @@
 <!-- Panel / End -->
 
 <!-- Ajax Modal -->
-<div id="ajax-modal"></div>
+<div id="ajax-modal">
+
+</div>
 <!-- Ajax Loader -->
 <svg id="ajax-loader" class="loader" width="65px" height="65px" viewBox="0 0 66 66" xmlns="http://www.w3.org/2000/svg"><circle class="circle" fill="none" stroke-width="3" stroke-linecap="round" cx="33" cy="33" r="30"></circle></svg>
 
@@ -743,10 +754,7 @@
 <script src="assets/js/core.js"></script>
 
 <!-- JS Google Map -->
-<script src="http://maps.google.com/maps/api/js"></script>
-
-<!-- Styleswitcher -->
-<script src="assets/styleswitcher/styleswitcher.js"></script>
+<script src="http://maps.google.com/maps/api/js"></script>"index-pl.html"
 
 </body>
 

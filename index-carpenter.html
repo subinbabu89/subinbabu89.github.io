@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -25,7 +24,7 @@
 <link rel="stylesheet" href="assets/css/styles.css" />
 
 <!-- CSS Theme -->
-<link rel="stylesheet" id="theme" href="assets/css/themes/theme-blue.css" />
+<link rel="stylesheet" id="theme" href="assets/css/themes/theme-brown.css" />
 
 </head>
 
@@ -38,12 +37,12 @@
 <!-- Loader / End -->
 
 <!-- BG Image -->
-<div class="bg-body bg-image zooming">
-	<img src="assets/img/photos/bg_frontend.jpg" alt="">
+<div class="bg-body bg-image">
+	<img src="assets/img/photos/bg_carpenter.jpg" alt="">
 </div>
 
 <!-- Header -->
-<header id="header" class="bg-primary">
+<header id="header" class="bg-primary dark transparent">
 
 	<!-- Top Bar -->
 	<div id="top-bar">
@@ -53,15 +52,12 @@
 				<a href="blog.html">Blog</a>
 				<a href="documentation.html" target="_blank">Docs</a>
 			</nav>
-			<nav class="language menu module right hidden-xs">
-				<span>Language version:</span>
-				<a href="#" class="active">English</a>
-				<a href="#">Polish</a>
-				<a href="#">Spanish</a>
-			</nav>
+			<div class="module right hidden-xs">
+				<span><span class="text-muted">Call me!</span> +48 221 122 212</span>
+			</div>
 		</div>
 	</div>
-
+	
 	<!-- Navigation Bar -->
 	<div id="nav-bar" class="container">
 		<nav>
@@ -80,8 +76,7 @@
 
 		<div class="mobile-nav clearfix">
 			<div class="owner">
-				<img src="assets/img/avatars/avatar_square_sm.jpg" alt="">
-				<span class="name">Mat Webber</span>
+				<span class="name">Maximilian Parker</span>
 			</div>
 			<a href="#" class="panel-toggle" data-toggle="panel"><span><span></span></span></a>
 		</div>
@@ -91,19 +86,14 @@
 <!-- Header / End -->
 
 <!-- Content -->
-<div id="content" class="container">
-
-	<div id="photo">
-		<img src="assets/img/avatars/avatar.jpg" alt="">
-	</div>
+<div id="content" class="no-photo container">
 
 	<div id="sections-wrapper">
-
+			
 		<!-- Section -->
 		<section id="home" class="bg-white" data-target="local-scroll">
 			<div class="section-content">
-				<img class="img-circle mb-40 visible-sm visible-xs" src="assets/img/avatars/avatar_square_sm.jpg" alt="">
-				<h1 class="mb-0">I'm Mat Webber</h1>
+				<h1 class="mb-0">I'm Maximilian Parker</h1>
 				<h3 class="text-muted"><span class="typing">Proffesional front-end developer</span></h3>
 				<hr class="sep-line">
 
@@ -129,7 +119,7 @@
 							<dt>E-mail:</dt>
 							<dd><a href="#">example@mail.com</a></dd>
 							<dt>Folow me!</dt>
-							<dd>
+							<dd>	
 								<a href="https://www.facebook.com/suelopl" target="blank" class="icon icon-facebook icon-sm icon-circle"><i class="fa fa-facebook"></i></a>
 								<a href="https://twitter.com/suelopl" target="blank" class="icon icon-twitter icon-sm icon-circle"><i class="fa fa-twitter"></i></a>
 								<a href="#" target="blank" class="icon icon-google-plus icon-sm icon-circle"><i class="fa fa-google-plus"></i></a>
@@ -180,7 +170,7 @@
 		<!-- Section -->
 		<section id="promo-video" class="section-video dark">
 			<div class="section-content">
-				<div class="image bg-image"><img src="assets/img/photos/video_frontend.jpg" alt=""></div>
+				<div class="image bg-image"><img src="assets/img/photos/video_carpenter.jpg" alt=""></div>
 				<h3 class="title">Why me?</h3>
 				<a href="https://www.youtube.com/embed/uVju5--RqtY?rel=0&autoplay=1" class="btn-play"></a>
 			</div>
@@ -444,7 +434,7 @@
 						<!-- Testimonial -->
 						<div class="testimonial testimonial-primary animated" data-animation="fadeInUp" data-animation-delay="100">
 							<div class="testimonial-content">
-								Pellentesque et massa sed diam ornare laoreet nec nec turpis. Aenean in magna lobortis, dignissim sem at, tincidunt nunc. Nunc fringilla a tellus in hendrerit.
+								Pellentesque et massa sed diam ornare laoreet nec nec turpis. Aenean in magna lobortis, dignissim sem at, tincidunt nunc. Nunc fringilla a tellus in hendrerit. 
 							</div>
 							<div class="testimonial-author">
 								<div class="name">Johnatan Doe</div>
@@ -456,7 +446,7 @@
 						<!-- Testimonial -->
 						<div class="testimonial testimonial-primary animated" data-animation="fadeInUp" data-animation-delay="200">
 							<div class="testimonial-content">
-								Pellentesque et massa sed diam ornare laoreet nec nec turpis. Aenean in magna lobortis, dignissim sem at, tincidunt nunc. Nunc fringilla a tellus in hendrerit.
+								Pellentesque et massa sed diam ornare laoreet nec nec turpis. Aenean in magna lobortis, dignissim sem at, tincidunt nunc. Nunc fringilla a tellus in hendrerit. 
 							</div>
 							<div class="testimonial-author">
 								<div class="name">Johnatan Doe</div>
@@ -612,7 +602,7 @@
 					</div>
 				</div>
 			</div>
-			<div id="google-map" class="h-300" data-latitude="40.758895" data-longitude="-73.985131"></div>
+			<div id="google-map" class="h-300" data-latitude="40.758895" data-longitude="-73.985131" data-style="dark"></div>
 		</section>
 
 		<!-- Section -->
@@ -653,13 +643,9 @@
 <!-- Panel -->
 <nav id="panel" class="bg-white">
 	<div class="panel-wrapper">
-		<!-- Photo -->
-		<div class="photo">
-			<img src="assets/img/avatars/avatar_square.jpg" alt="">
-		</div>
 
 		<!-- Menu -->
-		<div class="menu widget">
+		<div class="menu widget pt-30">
 			<h6>Navigation</h6>
 			<ul id="nav-mobile" class="nav nav-panel">
 				<li><a href="#home"><i class="ti-home"></i>Home</a></li>
@@ -743,10 +729,7 @@
 <script src="assets/js/core.js"></script>
 
 <!-- JS Google Map -->
-<script src="http://maps.google.com/maps/api/js"></script>
-
-<!-- Styleswitcher -->
-<script src="assets/styleswitcher/styleswitcher.js"></script>
+<script src="http://maps.google.com/maps/api/js"></script>"index-pl.html"
 
 </body>
 
